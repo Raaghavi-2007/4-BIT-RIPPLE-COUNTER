@@ -23,18 +23,42 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 ![image](https://github.com/naavaneetha/4-BIT-RIPPLE-COUNTER/assets/154305477/85e1958a-2fc1-49bb-9a9f-d58ccbf3663c)
 
 **Procedure**
-
-/* write all the steps invloved */
+1. Create a new project in Quartus II software.
+2. Type the Verilog program for the 4 Bit Ripple Counter.
+3. Compile the program and observe the RTL schematic of the 4 Bit Ripple Counter.
+4. Create a new University Program Waveform File.
+5. Add input and output nodes using Node Finder.
+6. Apply clock pulses for the counter operation.
+7. Observe the binary counting sequence in the timing waveform.
 
 **PROGRAM**
 
 /* Program for 4 Bit Ripple Counter and verify its truth table in quartus using Verilog programming.
 
- Developed by: RegisterNumber:
+ Developed by: RAAGHAVI S  RegisterNumber: 212225040321
 */
+```
+module DEExp6(
+    input clk,
+    input rst,
+    output reg [3:0] count
+);
 
+always @(posedge clk or posedge rst)
+begin
+    if (rst)
+        count <= 4'b0000;
+    else
+        count <= count + 1'b1;
+end
+
+endmodule
+```
 **RTL LOGIC FOR 4 Bit Ripple Counter**
+<img width="1919" height="1022" alt="Screenshot 2026-05-28 112450" src="https://github.com/user-attachments/assets/63615679-d900-40a4-9911-9a3870098c36" />
 
 **TIMING DIGRAMS FOR 4 Bit Ripple Counter**
+<img width="1919" height="1022" alt="Screenshot 2026-05-28 113050" src="https://github.com/user-attachments/assets/48b86275-017f-48b5-bf44-da2fb2f32cd0" />
 
 **RESULTS**
+Thus, the 4-BIT-RIPPLE-COUNTER successfully designed and verified using Quartus software.
