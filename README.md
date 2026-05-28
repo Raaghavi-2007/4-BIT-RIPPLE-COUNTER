@@ -60,5 +60,5 @@ endmodule
 **TIMING DIGRAMS FOR 4 Bit Ripple Counter**
 <img width="1919" height="1022" alt="Screenshot 2026-05-28 113050" src="https://github.com/user-attachments/assets/48b86275-017f-48b5-bf44-da2fb2f32cd0" />
 
-**RESULTS**
+**RESULTS:**
 Thus, the 4-BIT-RIPPLE-COUNTER successfully designed and verified using Quartus software.
