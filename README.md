@@ -22,7 +22,7 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 
 ![image](https://github.com/naavaneetha/4-BIT-RIPPLE-COUNTER/assets/154305477/85e1958a-2fc1-49bb-9a9f-d58ccbf3663c)
 
-**Procedure**
+**Procedure:**
 1. Create a new project in Quartus II software.
 2. Type the Verilog program for the 4 Bit Ripple Counter.
 3. Compile the program and observe the RTL schematic of the 4 Bit Ripple Counter.
@@ -31,7 +31,7 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 6. Apply clock pulses for the counter operation.
 7. Observe the binary counting sequence in the timing waveform.
 
-**PROGRAM**
+**PROGRAM:**
 
 /* Program for 4 Bit Ripple Counter and verify its truth table in quartus using Verilog programming.
 
